@@ -1,0 +1,21 @@
+# Data files
+data/raw/*.csv
+data/raw/*.zip
+data/raw/*.parquet
+
+# Allow text files (dataset link)
+!data/raw/*.txt
+
+# Models
+# models/*.pkl
+# models/*.joblib
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
