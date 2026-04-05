@@ -6,9 +6,28 @@ data/raw/*.parquet
 # Allow text files (dataset link)
 !data/raw/*.txt
 
-# Models
-# models/*.pkl
-# models/*.joblib
+# Ignore model artifacts
+models/
+notebooks/models/
+notebooks/bert_results/
+models/**/*.json
+models/**/*.safetensors
+models/**/*.bin
+models/**/*.pt
+models/**/*.pth
+notebooks/models/**/*.json
+notebooks/models/**/*.safetensors
+notebooks/models/**/*.bin
+notebooks/models/**/*.pt
+notebooks/models/**/*.pth
+# Ignore model and checkpoint artifacts
+models/
+notebooks/models/
+notebooks/bert_results/
+*.safetensors
+*.bin
+*.pt
+*.pth
 
 # Python
 __pycache__/
