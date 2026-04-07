@@ -20,6 +20,8 @@ notebooks/models/**/*.safetensors
 notebooks/models/**/*.bin
 notebooks/models/**/*.pt
 notebooks/models/**/*.pth
+notebooks/bert*
+
 # Ignore model and checkpoint artifacts
 models/
 notebooks/models/
