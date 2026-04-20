@@ -21,6 +21,8 @@ notebooks/models/**/*.bin
 notebooks/models/**/*.pt
 notebooks/models/**/*.pth
 notebooks/bert*
+notebooks/models/*
+notebooks/rob*
 
 # Ignore model and checkpoint artifacts
 models/
